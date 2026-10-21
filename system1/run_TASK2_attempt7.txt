@@ -1,0 +1,19 @@
+run_dir: /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/03-dynamic-decomposition/solution/runs/20261003_054147
+[claim_01_kitchen_fire] policy=POL-1001 expected=routed
+  → outcome=incomplete turns=2 clarifications=0 tokens=6394/528 est=$0.0090
+[claim_02_stolen_bike] policy=POL-1007 expected=routed
+  → outcome=incomplete turns=2 clarifications=0 tokens=6157/472 est=$0.0085
+[claim_03_water_damage] policy=POL-1004 expected=routed
+  → outcome=routed turns=6 clarifications=1 tokens=22249/1110 est=$0.0278
+[claim_04_neighbor_injury] policy=POL-1002 expected=routed
+  → outcome=incomplete turns=3 clarifications=1 tokens=9786/570 est=$0.0126
+[claim_05_auto_collision] policy=POL-1003 expected=routed
+  → outcome=routed turns=4 clarifications=0 tokens=15014/994 est=$0.0200
+[claim_06_low_confidence_escalation] policy=POL-1008 expected=escalated
+  → outcome=incomplete turns=3 clarifications=0 tokens=9805/757 est=$0.0136
+[claim_07_tree_falls_on_car] policy=POL-1005 expected=routed
+  → outcome=incomplete turns=2 clarifications=0 tokens=6189/456 est=$0.0085
+[claim_08_minor_porch_damage] policy=POL-1006 expected=routed
+  → outcome=incomplete turns=3 clarifications=0 tokens=10332/786 est=$0.0143
+summary: /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/03-dynamic-decomposition/solution/runs/20261003_054147/summary.md
+total estimated cost: $0.1143
